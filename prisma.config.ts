@@ -2,7 +2,7 @@ import path from 'path'
 import { defineConfig } from 'prisma/config'
 
 export default defineConfig({
-  earlyAccess: true,
+
   // Use forward slashes even on Windows to avoid escape character issues
   schema: './prisma/schema.prisma', 
   migrate: {
